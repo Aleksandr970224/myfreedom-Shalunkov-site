@@ -10,12 +10,19 @@
   margin: 0 auto;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 55;
+  background-color: #fff;
+}
+
 header nav {
   margin-top: 18px;
   margin-bottom: 19px;
   display: flex;
   justify-content: space-between;
-  /* background-color: rgba(95, 158, 160, 0.129); */
 }
 
 .leftNav {
@@ -74,10 +81,11 @@ nav button {
   padding: 13px 16px;
 }
 
-
-
 main {
- 
+  /* margin-top: 150px; */
+  /* position: relative;
+  top: 83px; */
+  padding-top: 83px;
   height: 100vh;
 }
 
@@ -88,7 +96,7 @@ main {
 }
 
 .chartBg {
-  background-image: url(./images/chartBg.svg);
+  background-image: url(./images/id_main/chartBg.svg);
   
   height: 100vh;
   background-repeat: no-repeat;
@@ -99,8 +107,7 @@ main {
 }
 
 .clouds {
-  background-image: url(./images/clouds.svg);
-  
+  background-image: url(./images/id_main/clouds.svg);
   height: 100vh;
   background-repeat: no-repeat;
   /* background-size: cover; */
@@ -161,17 +168,17 @@ main {
   border: none;
   background-color: #fff;
   border-radius: 50px;
-  background-image: url(./images/playButton.svg);
+  background-image: url(./images/id_main/playButton.svg);
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .clouds img {
   position: absolute;
-  /* top: 70%;
-  right: 65%; */
-  left: 440px;
-  top: 500.5px;
+  top: 74.6%;
+  right: 67.7%;
+  /* left: 440px; */
+  /* top: 500.5px; */
   /* transform: translate(-90%, -30%); */
 }
 
@@ -193,4 +200,23 @@ main {
   border: none;
   padding: 8px;
   border-radius: 50px;
+}
+
+#customers {
+  /* background-color: rgba(172, 255, 47, 0.218); */
+  /* height: 146px; */
+  padding: 58px 276px;
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.costumersImg {
+  /* background-color: rgba(0, 0, 255, 0.266); */
+  width: 890px;
+  /* padding: 0 276px; */
+  /* height: 30px; */
+  display: flex;
+  justify-content: space-between;
 }
