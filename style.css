@@ -255,6 +255,10 @@ main {
   padding-bottom: 47px;
 }
 
+.plan_n section .button_plan_n {
+  display: flex;
+}
+
 .plan_n section button:first-of-type {
   display: flex;
   align-items: center;
@@ -266,7 +270,7 @@ main {
 }
 
 .plan_n section button #text_button_plan {
-  font-family: 'Quicksand';
+  font-family: 'Quicksand', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 13px;
@@ -274,12 +278,28 @@ main {
   padding-bottom: 0;
   letter-spacing: 0;
   color: #FFFFFF;
+  text-transform: none;
 }
 
 .plan_n section button #play_button_plan {
   width: 6.5px;
   height: 7.2px;
-  padding-left: 6px;
+  margin-left: 6px;
+  margin-top: 2px;
+}
+
+.plan_n section button:last-child {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  padding: 0 21px;
+  text-align: center;
+  background-color: #F5F8FF;
+  color: #ADB4D2;
+  border: 1px solid #D1D1E4;
+  border-radius: 0 2px 2px 0;
 }
 
 .plan_n img {
@@ -288,3 +308,8 @@ main {
   display: block;
   /* max-width: 100%; */
 }
+
+#features {
+  background-color: #fff;
+}
+
