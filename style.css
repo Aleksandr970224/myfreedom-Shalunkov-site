@@ -41,6 +41,7 @@ header nav {
 
 .leftContent a:first-child {
   color: #5E81FE;
+  font-weight: 700;
 }
 
 .leftContent a {
@@ -136,13 +137,14 @@ main {
   color: #3D4F9F;
   padding-top: 16px;
   padding-bottom: 28px;
+  letter-spacing: 0;
 }
 
 .clouds article b {
-  font-weight: bold;
+  font-weight: 500;
 }
 
-.clouds article p {
+.clouds article p:last-of-type {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -152,6 +154,8 @@ main {
   letter-spacing: 0.03em;
   color: #8D96BD;
   padding-bottom: 20px;
+  max-width: 520px;
+  margin: auto;
 }
 
 #play {
@@ -311,5 +315,23 @@ main {
 
 #features {
   background-color: #fff;
+  /* min-height: 100vh; */
 }
 
+#features .wrapper_features {
+  max-width: 1200px;
+  margin: auto;
+  /* min-height: 100vh; */
+  display: flex;
+}
+
+#features .wrapper_features .clouds_left {
+  background-image: url(./images/id_features/clouds.svg);
+  background-repeat: no-repeat;
+  /* min-height: 100vh; */
+}
+
+
+#features .wrapper_features .content_features {
+
+}
