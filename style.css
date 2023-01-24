@@ -57,6 +57,12 @@ header nav {
   color: #697CA6;
   text-shadow: 0px 0px 5px #E6E6E6;
   margin-right: 32px;
+  /* transition: all .2s; */
+}
+
+.leftContent a:hover {
+  border-bottom: 1px solid #4074F8;
+  /* padding-bottom: 1px; */
 }
 
 #burger_mobile {
@@ -70,6 +76,12 @@ header nav {
 
 .rightNav a {
   margin-right: 34px;
+  /* transition: all .2s; */
+}
+
+.rightNav a img:hover {
+  border-bottom: 1px solid #4074F8;
+  padding-bottom: 2px;
 }
 
 nav button {
@@ -84,11 +96,20 @@ nav button {
   line-height: 16px;
   text-align: center;
   padding: 13px 21px;
+  cursor: pointer;
+  transition: all .2s;
 }
+
+
+nav button:hover {
+  background-color: #4074f89a;
+  border: 2px solid #4074f813;
+}
+
 
 main {
   padding-top: 83px;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 #main {
@@ -171,6 +192,7 @@ main {
   background-image: url(./images/id_main/playButton.svg);
   background-repeat: no-repeat;
   background-position: center center;
+  cursor: pointer;
 }
 
 .clouds img {
@@ -272,6 +294,12 @@ main {
   border-radius: 2px 0 0 2px;
   padding: 13px 25px;
   border: none;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.plan_n section button:first-of-type:hover {
+  box-shadow: 0 0 10px rgba(28, 64, 242, 0.75);
 }
 
 .plan_n section button #text_button_plan {
@@ -305,6 +333,12 @@ main {
   color: #ADB4D2;
   border: 1px solid #D1D1E4;
   border-radius: 0 2px 2px 0;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.plan_n section button:last-child:hover {
+  box-shadow: 0 0 5px rgba(41, 72, 249, 0.493);
 }
 
 .plan_n img {
@@ -373,6 +407,13 @@ main {
 .wrapper_flex_features .flex_features img {
   display: block;
   margin: 0 auto;
+  border-radius: 50px;
+  transition: all .2s;
+  cursor: pointer;
+}
+
+.wrapper_flex_features .flex_features img:hover {
+  box-shadow: 0 0 5px #3A79FF;
 }
 
 .wrapper_flex_features .flex_features p:first-of-type {
@@ -420,6 +461,12 @@ main {
   padding: 13px 15px;
   border: none;
   border-radius: 2px;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.content_features .buttons_features button:first-of-type:hover {
+  background-color: #fc9595;
 }
 
 .content_features .buttons_features p:first-of-type {
@@ -444,6 +491,12 @@ main {
   padding: 13px 15px;
   border: none;
   border-radius: 2px;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.content_features .buttons_features button:last-child:hover {
+  background-color: #4074f89a;
 }
 
 .content_features .buttons_features .line_horizon2 {
